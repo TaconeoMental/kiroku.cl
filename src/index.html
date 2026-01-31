@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiroku</title>
+  <meta name="description" content="Kiroku transforma sesiones de grabación en guiones profesionales." />
+
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preload" href="/static/style.css" as="style" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <div class="glow-orb" style="left:-220px; top:-200px;"></div>
+  <div class="glow-orb two"></div>
+
+  <!-- NAV -->
+  <div class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand" aria-label="Kiroku">
+        <span class="mark" aria-hidden="true"></span>
+        <span>Kiroku</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Secciones">
+        <a href="#que-es">Qué es</a>
+        <a href="#como-funciona">Cómo funciona</a>
+         <a href="#porque">Por qué Kiroku</a>
+        <a href="#demo">Antes vs Después</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <!--
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-small nav-beta" href="#beta">
+          Ir a la beta <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+        </a>
+      </div>
+      -->
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <main id="top" class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">
+            <span class="pill"><span class="dot"></span> En Beta Abierta</span>
+            <span class="pill">Web App Profesional</span>
+            <span class="pill">AI-Powered</span>
+          </div>
+
+          <h1>De la improvisación al guion perfecto en minutos</h1>
+          <p class="subhead">
+            Graba sesiones de tus rutinas y obtén guiones profesionales con diálogos, acotaciones y referencias visuales. Diseñado por performers, para performers.
+          </p>
+
+        </div>
+
+        <!-- Demo card -->
+        <aside class="demo glass-dark" aria-label="Vista previa (placeholder)">
+          <div class="demo-inner">
+            <div class="demo-top">
+              <div class="demo-title">
+                <i class="fa-solid fa-microphone-lines" aria-hidden="true"></i>
+                <span>Sesión en vivo</span>
+              </div>
+              <div class="status" title="Estado">
+                <span class="dot" aria-hidden="true"></span>
+                <span>Grabando</span>
+              </div>
+            </div>
+
+            <div class="preview">
+              <div class="preview-bar">
+                <span class="chip"><b>Proyecto</b> Rutina</span>
+                <span class="chip"><b>Estado</b> En curso</span>
+              </div>
+              <div class="preview-body">
+                <div class="mini-card">
+                  <div class="label">Transcripción en bruto</div>
+                  <div class="mono">
+"Acá digo con entusiamos hola… no, mejor… ¿cómo están? En el fondo alguien
+levanta la mano y le pregunto cuál es su nombre. Pedro, me responde con
+entusiasmo.
+                  </div>
+                </div>
+                <div class="mini-card">
+                  <div class="label">Guion final</div>
+                  <div class="mono">
+                      <span style="color:rgba(255,64,129,.92); font-weight:880;"> PERFORMER:</span> ¿Cómo están?
+                      </br>
+                      <span style="color:rgba(255,255,255,.78); font-style:italic;">(En el fondo alguien levanta una mano.)</span>
+                      </br>
+                      <span style="color:rgba(255,64,129,.92); font-weight:880;"> PERFORMER:</span> ¿Cuál es tu nombre?
+                      </br>
+                      <span style="color:rgba(255,64,129,.92); font-weight:880;"> PEDRO:</span> (Con entusiasmo) ¡Pedro!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- WHAT IS -->
+  <section id="que-es">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="section-title">Qué es Kiroku</h2>
+        <p class="section-sub">
+          Herramienta profesional que transforma sesiones en vivo de tus
+          rutinas en guiones estructurados. Captura ideas en el momento,
+          experimenta con diálogos y obtén documentación lista para ensayar.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Captura sin fricciones</h3>
+          <p>
+            Graba al ritmo natural de tus ideas. Experimenta, corrige y prueba
+            diálogos alternativos sin pausar tu proceso creativo.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>Guiones profesionales</h3>
+          <p>
+            Exporta con formato estándar de la industria. Compatible con 
+            PDF, Google Docs y Word.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-camera"></i></div>
+          <h3>Memoria visual</h3>
+          <p>
+            Captura fotos de momentos importantes de la rutina. Se sincronizan
+            automáticamente con el momento exacto del guion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="como-funciona">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="section-title">Cómo funciona</h2>
+        <p class="section-sub">
+          Proceso intuitivo en 5 pasos. Desde la grabación hasta el guion final en minutos.
+        </p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-top">
+            <div class="step-left">
+              <div class="num">1</div>
+               <b>Crea un nuevo proyecto</b>
+            </div>
+            <span class="meta">Setup</span>
+          </div>
+          <div class="desc">
+            Inicia sesión y crea un nuevo proyecto con nombre. Funciona en cualquier dispositivo.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-left">
+              <div class="num">2</div>
+              <b>Graba tu sesión creativa</b>
+            </div>
+            <span class="meta">Recording</span>
+          </div>
+          <div class="desc">
+            Improvisa libremente. Describe acciones, prueba diálogos, marca
+            pausas. Todo queda registrado.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-left">
+              <div class="num">3</div>
+              <b>Captura referencias visuales</b>
+            </div>
+            <span class="meta">Visual</span>
+          </div>
+          <div class="desc">
+            Toma fotos de elementos, posiciones o momentos clave. Se
+            sincronizan automáticamente con el guion.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-left">
+              <div class="num">4</div>
+              <b>Procesamiento inteligente</b>
+            </div>
+            <span class="meta">AI Magic</span>
+          </div>
+          <div class="desc">
+            Finaliza la grabación y Kiroku procesa todo automáticamente. Guion listo en minutos.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <div class="step-left">
+              <div class="num">5</div>
+              <b>Exporta y comparte</b>
+            </div>
+            <span class="meta">Export</span>
+          </div>
+          <div class="desc">
+            Descarga en PDF o Word. Listo para ensayar y revisitar cuando lo
+            necesites.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section id="porque">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="section-title">Por qué elegir Kiroku</h2>
+        <p class="section-sub">
+          Mantén el flujo creativo sin interrupciones. Captura ideas que
+          aparezcan en el momento, experimenta con el diálogo en tiempo real y
+          documenta cualquier movimiento importante dentro de tu rutina. Kiroku
+          se encarga de la estructura mientras tú te enfocas en crear.
+        </p>
+      </div>
+
+      <div class="tabs-container">
+        <div class="tab-buttons">
+          <button class="tab-button active" data-tab="estructura">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Estructura inteligente</span>
+          </button>
+          <button class="tab-button" data-tab="visual">
+            <i class="fa-solid fa-palette"></i>
+            <span>Estilos visuales</span>
+          </button>
+          <button class="tab-button" data-tab="iteracion">
+            <i class="fa-solid fa-rotate"></i>
+            <span>Iteración fluida</span>
+          </button>
+          <button class="tab-button" data-tab="biblioteca">
+            <i class="fa-solid fa-cloud"></i>
+            <span>Biblioteca en la nube</span>
+          </button>
+        </div>
+        
+        <div class="tab-content active" id="tab-estructura">
+          <h3>Vida interna y externa perfectamente separadas</h3>
+          <p>
+            Kiroku distingue automáticamente entre secciones que pertenecen a
+            la vida interna y a la vida externa. Todo queda perfectamente
+            estructurado para que puedas enfocarte en perfeccionar tu
+            performance.
+          </p>
+        </div>
+        
+        <div class="tab-content" id="tab-visual">
+          <h3>Transforma tus referencias en arte</h3>
+          <p>
+            Convierte las fotos de referencia en ilustraciones artísticas con
+            un solo clic. Ideal para crear documentación única y profesional
+            que destaque. Mantén ese estilo visual que tanto conocemos de los
+            libros que leemos.
+          </p>
+        </div>
+        
+        <div class="tab-content" id="tab-iteracion">
+          <h3>Experimenta sin límites</h3>
+          <p>
+            Prueba múltiples versiones, corrige sobre la marcha, explora
+            alternativas. La IA entiende tus intenciones y limpia el resultado
+            final.
+          </p>
+        </div>
+        
+        <div class="tab-content" id="tab-biblioteca">
+          <h3>Todo tu trabajo, siempre accesible</h3>
+          <p>
+            Accede a todos tus proyectos desde cualquier dispositivo. Organiza por fecha, 
+            tema o estado. Busca entre todos tus guiones instantáneamente. Tu biblioteca 
+            creativa crece contigo y está siempre lista cuando la necesites.
+          </p>
+        </div>
+      </div>
+
+      <!--
+      <div class="quote">
+        <blockquote>
+          <span class="quote-mark">"</span>algoaglgoalgo
+        </blockquote>
+        <cite>— algun nombre eugene burger??</cite>
+      </div>
+    </div>
+  </section>
+      -->
+
+  <!-- BEFORE / AFTER DEMO -->
+  <section id="demo">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="section-title">Transformación instantánea</h2>
+        <p class="section-sub">
+          De grabación improvisada a guion estructurado. Observa cómo Kiroku
+          procesa y organiza tu contenido creativo.
+        </p>
+      </div>
+
+      <div class="compare">
+        <div class="panel">
+          <div class="panel-head">
+            <strong>Transcripción en bruto</strong>
+            <span class="badge">lo que se registra</span>
+          </div>
+
+          <div class="script">
+            <div class="script-body">
+              <div class="stage">
+Acá digo, hola, ¿cómo están? Y el público responde de forma entusiasta, bien muy bien.
+</br>
+</br>
+En el fondo alguien levanta una mano y le pregunto, tú, ¿quieres participar? o no, mejor le pregunto, ¿te gustaría acompañarme?
+</br>
+</br>
+Acá en la vida interna mientras se acerca y mientras le aplauden, yo saco una carta de mi bolsillo.
+</br>
+</br>
+Volviendo al diálogo, le pregunto, ¿cuál es tu nombre? Pedro, me responde.
+</br>
+</br>
+Le doy la mano y le digo, Pedro, hoy te vas a sorprender mucho.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <strong>Guion final</strong>
+            <span class="badge accent">Lo que se genera</span>
+          </div>
+
+          <div class="script modern-script">
+            <div class="script-body">
+              <p class="line">
+                <span class="who">PERFORMER:</span>
+                <span class="dialog">Hola, ¿cómo están?</span>
+              </p>
+
+              <p class="line">
+                <span class="who">PÚBLICO:</span>
+                <span class="dialog">(De forma entusiasta) Bien, muy bien.</span>
+              </p>
+
+              <p class="line">
+                <span class="stage">(En el fondo alguien levanta una mano)</span>
+              </p>
+
+              <p class="line">
+                <span class="who">PERFORMER:</span>
+                <span class="dialog">¿Te gustaría acompañarme?</span>
+              </p>
+
+              <div class="internal-bubble">
+                <div class="internal-title"><span class="mini"></span>Vida interna</div>
+                <div class="stage">(Mientras el espectador se acerca y el público aplaude, el performer saca una carta de su bolsillo.)</div>
+              </div>
+
+              <div class="photo-tag">
+                <span class="spark"></span>
+                <span>[[FOTO: 014]] incluida en este punto del guion</span>
+              </div>
+
+              <p class="line" style="margin-top: 12px;">
+                <span class="who">PERFORMER:</span>
+                <span class="dialog">Tú, ¿cuál es tu nombre?</span>
+              </p>
+
+              <p class="line">
+                <span class="who">PEDRO:</span>
+                <span class="dialog">Pedro.</span>
+              </p>
+
+              <p class="line">
+                <span class="who">PERFORMER:</span>
+                <span class="dialog">(Dándole la mano) Pedro, hoy te vas a sorprender mucho.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BETA CTA -->
+  <!--
+  <section id="beta">
+    <div class="wrap">
+      <div class="glass-dark cta">
+        <div>
+          <h3>Únete a la beta</h3>
+          <p>Acceso temprano, feedback directo y mejoras rápidas.</p>
+        </div>
+        <a class="btn btn-primary" href="#"
+           onclick="alert('Placeholder: aquí iría tu link real de beta / waitlist 👀'); return false;">
+          Ir a la beta <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="section-title">Preguntas frecuentes</h2>
+        <p class="section-sub">
+          Todo lo que necesitas saber para empezar a usar Kiroku.
+        </p>
+      </div>
+
+      <details>
+        <summary>
+          ¿Esto es solo un programa de transcripción?
+          <span class="chev" aria-hidden="true">⌄</span>
+        </summary>
+        <div class="content">
+          No. El objetivo es terminar con un guion en formato escénico:
+          diálogos, personajes, acotaciones y elementos visuales.
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          ¿En qué plataformas funciona?
+          <span class="chev" aria-hidden="true">⌄</span>
+        </summary>
+        <div class="content">
+          Kiroku funciona en cualquier navegador web en tu computador de
+          escritorio y Google Chrome y Safari en dispositivos móviles.
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          ¿Cómo quedan las fotos?
+          <span class="chev" aria-hidden="true">⌄</span>
+        </summary>
+        <div class="content">
+          Se insertan exactamente donde las capturas. Puedes mantenerlas tal
+          cual o aplicar un estilo tipo ilustración.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap foot">
+      <div>
+         <div class="brand" style="gap:10px; margin-bottom: 8px;">
+           <span class="mark" aria-hidden="true"></span>
+           <span>Kiroku</span>
+         </div>
+         <div>© <span id="year"></span> Kiroku.</div>
+       </div>
+
+      <div style="display:flex; gap:14px; flex-wrap:wrap;">
+        <a href="#que-es">Qué es</a>
+        <a href="#demo">Demo</a>
+        <a href="#beta">Beta</a>
+        <a href="#top">Arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="#beta" class="btn btn-primary">
+      Probar Beta <i class="fa-solid fa-arrow-right"></i>
+    </a>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    (function(){
+      const items = Array.from(document.querySelectorAll('.faq details'));
+      items.forEach(d => {
+        d.addEventListener('toggle', () => {
+          if (!d.open) return;
+          items.forEach(other => {
+            if (other !== d) other.removeAttribute('open');
+          });
+        });
+      });
+    })();
+
+    (function(){
+      const details = Array.from(document.querySelectorAll('.faq details'));
+      details.forEach(d => {
+        const content = d.querySelector('.content');
+        if (!content) return;
+
+        d.addEventListener('toggle', () => {
+          if (d.open) {
+            // set to scrollHeight for animation
+            content.style.maxHeight = content.scrollHeight + 'px';
+          } else {
+            // collapse
+            content.style.maxHeight = '0px';
+          }
+        });
+
+        // In case of initial open state
+        if (d.open) {
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      });
+    })();
+
+    // Tabs 
+    (function(){
+      const buttons = document.querySelectorAll('.tab-button');
+      const contents = document.querySelectorAll('.tab-content');
+      
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tabId = button.dataset.tab;
+          
+          buttons.forEach(b => b.classList.remove('active'));
+          contents.forEach(c => c.classList.remove('active'));
+          
+          button.classList.add('active');
+          document.getElementById('tab-' + tabId).classList.add('active');
+        });
+      });
+    })();
+
+
+  </script>
+</body>
+</html>

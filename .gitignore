@@ -1,0 +1,18 @@
+# Certs and secrets
+infra/certs/
+*.pem
+
+# Node/JS defaults (if used)
+node_modules/
+dist/
+build/
+
+# Logs and temps
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
