@@ -12,7 +12,3 @@ build/
 *.tmp
 *.swp
 *.swo
-
-# OS/editor noise
-.DS_Store
-Thumbs.db
